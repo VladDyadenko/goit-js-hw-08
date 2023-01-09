@@ -10,13 +10,7 @@ import templateFunction from "../templates/templateItem.hbs" ;
 const  listImag = document.querySelector(".gallery");
 
 const addImagesToList = galleryItems
-.map(({preview, original, description}) => `<a class="gallery__item" href="${original}">
-<img
-  class="gallery__image"
-  src="${preview}"
-  alt="${description}"
-/>
-</a>`)
+.map(templateFunction)
 .join("");
 
 listImag.insertAdjacentHTML('beforeend', addImagesToList);
