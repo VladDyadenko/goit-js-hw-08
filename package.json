@@ -1,7 +1,7 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-08",
   "version": "2.0.0",
-  "description": "",
+  "description": "Модуль 8 - NPM. Webpack. JSON. Веб-хранилище",
   "homepage": "https://VladDyadenko.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html --open",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/VladDyadenko/goit-js-hw-08"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/VladDyadenko/goit-js-hw-08/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
