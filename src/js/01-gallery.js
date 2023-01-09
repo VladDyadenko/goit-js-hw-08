@@ -6,7 +6,7 @@ console.log(galleryItems);
 
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-
+import templateFunction from "../templates/templateItem.hbs" ;
 const  listImag = document.querySelector(".gallery");
 
 const addImagesToList = galleryItems
